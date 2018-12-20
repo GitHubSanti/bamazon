@@ -12,14 +12,12 @@ var connection = mysql.createConnection({
 
 connection.connect(err => {
   if (err) throw err;
-  console.log("connected as id " + connection.threadId);
   buyingProcess();
-  // connection.end();
 });
 
 let buyingProcess = () => {
   availableInventory();
-  setTimeout(takeCustomerRequest, 10);
+  setTimeout(takeCustomerRequest, 100);
 };
 
 // function to display what inventory available
