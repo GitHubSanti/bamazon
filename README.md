@@ -14,4 +14,4 @@
 
 3. If you indicate you wish to purchase more than what's available you'll be notified there isn't enough in stock:
 
-[Not enough Inventory](./)
+[Not enough Inventory](./notEnoughtInventory.JPG)
